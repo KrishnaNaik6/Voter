@@ -1,0 +1,47 @@
+body {
+    color: white;
+}
+
+.mainLayout_mrk {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.fixed_mrk {
+    height: 18vh;
+}
+
+.mainbody_mrk {
+    height: 82vh;
+    width: 100vw;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.table_mrk {
+    width: 50vw;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+td {
+    padding: 2%;
+    border: 1px solid #dddddd;
+    color: darkseagreen;
+}
+
+th {
+    padding: 1%;
+    border: 3px solid #dddddd;
+    /* border-bottom: 3px solid rgb(137, 112, 112); */
+    font-size: large;
+}

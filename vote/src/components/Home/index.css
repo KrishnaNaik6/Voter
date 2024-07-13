@@ -1,0 +1,39 @@
+body {
+    color: white;
+}
+
+.mainLayout_home {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.fixed_std {
+    height: 18vh;
+}
+
+.mainbody{
+    height: 82vh;
+    width: 100vw;
+    padding: 3%;
+    margin-left: 3%;
+}
+
+.mainbody h1 {
+    padding: 2% 0;
+}
+
+.mainbody .stu{
+    padding: 2% 0;
+    margin-left: 5%;
+}
+
+.mainbody .features {
+    margin-left: 8%;
+}
+
+.features h3{
+    padding: 1%;
+}

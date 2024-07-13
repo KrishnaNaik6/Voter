@@ -1,0 +1,27 @@
+.head {
+    width: 100vw;
+    min-height: 10vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+}
+
+.head h2{
+    width: 10vw;
+}
+
+.head header{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around */
+}
+
+.head header .college {
+    width: 30vw;
+}
+.head header .std_name {
+    width: 70vw;
+}
