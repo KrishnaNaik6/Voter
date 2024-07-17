@@ -1,0 +1,92 @@
+.main{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: auto;
+    min-width: auto;
+    width: 40vh;
+    border-radius: 25px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    backdrop-filter: blur(2px);
+}
+
+.main:hover{
+    box-shadow: 0 0 10px rgba(252, 250, 250, 0.3);
+}
+
+.login {
+    margin: 10%;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.credentials{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 5%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: auto;
+    height: auto;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div{
+    width: auto;
+    margin: 3% 0;
+}
+
+form div input{
+    height: 3em;
+    width: 15rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid black;
+    outline: none;
+    color: white;
+}
+
+input::placeholder{
+    color:wheat;
+    font-size: 2vh;
+}
+
+button{
+    height: 4vh;
+    width: 10vh;
+    margin-top: 20%;
+    border-radius: 15px;
+    border: none;
+}
+.reg_link {
+    padding: 1%;
+}
+
+.reg_link a{
+    text-decoration: none;
+    color: aqua;
+}
+.forgot {
+    padding: 1%;
+    padding-left: 6rem;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: aqua;
+}

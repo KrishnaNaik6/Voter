@@ -1,0 +1,70 @@
+body {
+    color: white;
+}
+.mainLayout_time {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.fixed_time {
+    height: 18vh;
+}
+
+.mainbody_time {
+    height: 82vh;
+    width: 100vw;
+    /* padding: 3%; */
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voting_board{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+    /* justify-content: space-around; */
+    overflow-y: auto;
+    background-color: rgb(49, 58, 58);
+    border-radius: 2rem;
+}
+
+.voting_board .single_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.single_card button{
+    background-color: black;
+    display: inline;
+    margin: 0;
+}
+
+.voting_board .image img{
+    width: 5rem;
+    height: 5rem;
+}
+
+td {
+    padding: 2%;
+    border: 1px solid #dddddd;
+    color: darkseagreen;
+    width: 6rem;
+}
+
+th {
+    padding: 1%;
+    border: 3px solid #dddddd;
+    /* border-bottom: 3px solid rgb(137, 112, 112); */
+    font-size: large;
+}

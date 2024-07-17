@@ -1,0 +1,173 @@
+.mainLayout {
+    color: white;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#form_data_t input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset !important;
+    box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0) inset !important;
+    -webkit-text-fill-color: #fcf9f9 !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+.timetable{
+
+    margin-top: 2%;
+}
+
+#form_data_t {
+    margin-top: 2%;
+}
+
+#form_data_t input{
+    height: 3em;
+    width: 13rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid black;
+    outline: none;
+    color: white;
+    padding: 0 2%;
+}
+
+.details_tm input{
+    height: 3em;
+    width: 8rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgb(135, 103, 103);
+    outline: none;
+    color: white;
+}
+
+
+/*  */
+.timetable {
+    height: 93%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add_timetable {
+    position: fixed;
+    top: 7%;
+    height: 19%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_timetable .form_data_t {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+
+.add_timetable h2{
+    display: flex ;
+    justify-content: center;
+    margin: 1%;
+}
+
+
+.timetable .fixtm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.inside {
+    display: flex;
+    flex-direction: row;
+}
+
+.inside input {
+    height: 50%;
+}
+
+.inside div {
+    margin-right: 6em;
+    width: 10em;
+}
+
+.fixtm form {
+    margin: 1% 0;
+}
+
+
+
+.timetables_t {
+    height: 59%;
+    width: 89%;
+    position: absolute;
+    top: 41%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.timetable_single_t {
+    width: 30%;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    margin: 1% 1%;
+    justify-content: space-between;
+}
+
+.timetable_single_t .image_t  {
+    width: 42%;
+    height: 83%;
+    padding: 3%
+}
+.timetable_single_t .image_t img {
+    height: 100%;
+    width: 100%;
+}
+
+.timetable_single_t .content_t {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    padding: 1%;
+}
+
+.content_t p {
+    align-self: flex-start;
+    padding: 1%;
+}
+
+.content_t button {
+    margin: 0;
+}
+
+.fixtm label {
+    margin: 0;
+}
+
+.fixtm button {
+    margin: 0;
+}
+
+.fixtm div{
+    display: inline;
+}
